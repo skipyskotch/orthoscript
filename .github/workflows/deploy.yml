@@ -26,8 +26,7 @@ name: Checkout
 name: Setup Node
       uses: actions/setup-node@v4
       with:
-        node-version: 20
-        # IMPORTANT: for now, do NOT include cache: 'npm'# cache: 'npm'
+        node-version: 20# IMPORTANT: for now, do NOT include cache: 'npm'# cache: 'npm'
 
       
 name: Install dependencies
